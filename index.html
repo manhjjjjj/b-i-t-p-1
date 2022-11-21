@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <img src="./image/ảnh 1.jpg" alt="">
+        <div class="title-container">
+            <h1>Spend Elon Musk's Fortune!</h1>
+            <p>
+                If Elon cashed out all of his stocks & assets today he would have <br>
+                approximately
+                <strong>$217,000,000,000 </strong>
+                (US Dollars) in his bank account.
+            </p>
+            <p>
+                ¿What would you
+                <strong>spend it</strong>
+                on?
+            </p>
+            <p>Have your receipt at the end!</p>
+        </div>
+    </div>
+   <div class="total">
+    <p class="totalMoney" id="totalMoney">Remaining: $217,000,000,000</p>
+    <p class="percentageLeft" id="percentageLeft">You only spent 0.000000 % of the total!</p>
+   </div>
+    <div class="app-container" id="allElements">
+     <!--   <div class="element">
+            <img src="./image/anh2.jpg" alt="">
+            <p id="name">Nintendo Switch</p>
+            <span id="price">USD 299</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div>
+        <div class="element">
+            <img src="./image/anh3.jpg" alt="">
+            <p id="name">PS5</p>
+            <span id="price">USD 499</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div>
+        <div class="element">
+            <img src="./image/anh4.jpg" alt="">
+            <p id="name">Iphone 14 Pro Max - 1TB</p>
+            <span id="price">USD 1,599</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div>
+        <div class="element">
+            <img src="./image/anh5.jpg" alt="">
+            <p id="name">Samsung S22 Ultra - 1TB</p>
+            <span id="price">USD 1,399</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div>
+        <div class="element">
+            <img src="./image/anh6.jpg" alt="">
+            <p id="name">MacBook Pro 14' M1 Max (64GB RAM | 4TB) </p>
+            <span id="price">USD 4,699</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div>
+        <div class="element">
+            <img src="./image/anh7.jpg" alt="">
+            <p id="name">Ipad Air M1 Chip (2022) (256GB)</p>
+            <span id="price">USD 749</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div>
+        <div class="element">
+            <img src="./image/anh9.jpg" alt="">
+            <p id="name">Tesla Bot (Available 2024)</p>
+            <span id="price">USD 20,000</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div>
+        <div class="element">
+            <img src="./image/anh10.jpg" alt="">
+            <p id="name">Start your own StartUp</p>
+            <span id="price">USD 5,000,000</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div>
+        <div class="element">
+            <img src="./image/anh11.jpg" alt="">
+            <p id="name">Entire production of Nvidia GPUs for 2022</p>
+            <span id="price">USD 700,000,000</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div>
+        <div class="element">
+            <img src="./image/anh12.jpg" alt="">
+            <p id="name">Influence 1 high ranking politician</p>
+            <span id="price">USD 2,000,000</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div>
+        <div class="element">
+            <img src="./image/anh13.jpg" alt="">
+            <p id="name">Private Concert with ANY Super Star</p>
+            <span id="price">USD 1,000,000</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div>
+        <div class="element">
+            <img src="./image/anh15.jpg" alt="">
+            <p id="name">Lamborghini Aventador SVJ</p>
+            <span id="price">USD 512,000</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div>
+        <div class="element">
+            <img src="./image/anh15.b.jpg" alt="">
+            <p id="name">Bugatti La Voiture Noire</p>
+            <span id="price">USD 11,000,000</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div>
+        <div class="element">
+            <img src="./image/anh16.jpg" alt="">
+            <p id="name">1000 Acres of land</p>
+            <span id="price">USD 4,100,000</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div>
+        <div class="element">
+            <img src="./image/anh16.b.jpg" alt="">
+            <p id="name">Private Island, Central America (medium size)</p>
+            <span id="price">USD 4,950,000</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div>
+        <div class="element">
+            <img src="./image/anh17.jpg" alt="">
+            <p id="name">Private Island, Central America (medium size)</p>
+            <span id="price">USD 4,950,000</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div>
+        <div class="element">
+            <img src="./image/anh18.jpg" alt="">
+            <p id="name">NFL Team (Average)</p>
+            <span id="price">USD 3,000,000,000</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div>
+        <div class="element">
+            <img src="./image/anh19.jpg" alt="">
+            <p id="name">Jet Gulfstream G450</p>
+            <span id="price">USD 17,000,000</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div>
+        <div class="element">
+            <img src="./image/anh20.jpg" alt="">
+            <p id="name">Produce a Hollywood Movie</p>
+            <span id="price">USD 90,000,000</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div>
+        <div class="element">
+            <img src="./image/anh21.jpg" alt="">
+            <p id="name">L.A Mega Mansion (8 bd, 20 ba)</p>
+            <span id="price">USD 52,000,000</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div>
+        <div class="element">
+            <img src="./image/anh22.jpg" alt="">
+            <p id="name">Mega Yatch</p>
+            <span id="price">USD 300,000,000</span>
+            <div class="buyAndSellContainer">
+                <button class="btn-sell">Sell</button>
+                <span>0</span>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </div> -->
+        
+   </div>
+</body>
+    <script src="./app.js"></script>
+</html>
